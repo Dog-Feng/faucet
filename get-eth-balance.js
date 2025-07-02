@@ -4,7 +4,6 @@ const path = require('path');
 
 // 连接到ETH主网的RPC端点
 const rpcEndpoints = [
-    'https://mainnet.infura.io/v3/0baf7b768440432a9ec455077c65384a',
     'https://ethereum.blockpi.network/v1/rpc/public',
     'https://eth-mainnet.g.alchemy.com/v2/demo',
     'https://rpc.ankr.com/eth'
