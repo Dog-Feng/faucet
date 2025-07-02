@@ -4,7 +4,6 @@ const path = require('path');
 
 // Sepolia 测试网RPC端点
 const sepoliaRpcEndpoints = [
-    'https://sepolia.infura.io/v3/0baf7b768440432a9ec455077c65384a',
     'https://eth-sepolia.g.alchemy.com/v2/demo',
     'https://rpc.sepolia.org',
     'https://ethereum-sepolia.blockpi.network/v1/rpc/public'
