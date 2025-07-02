@@ -1,9 +1,8 @@
 const fs = require('fs');
 const { Web3 } = require('web3');
 
-// 使用免费的以太坊RPC节点（Infura的公共节点或其他免费节点）
-// 这里使用一个免费的公共RPC节点
-const web3 = new Web3('https://mainnet.infura.io/v3/0baf7b768440432a9ec455077c65384a');
+
+const web3 = new Web3();
 
 // 读取EVM地址文件
 function readAddressesFromFile(filename) {
